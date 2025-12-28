@@ -15,7 +15,10 @@
 
 ### 💻 For Developers
 **Want to implement the fix in source code?**
-- [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md) - Technical implementation details
+- [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md) - Technical implementation details (localhost fix)
+- [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) - Same LAN/NAT fix (English)
+- [同局域网连接修复方案.md](%E5%90%8C%E5%B1%80%E5%9F%9F%E7%BD%91%E8%BF%9E%E6%8E%A5%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88.md) - Same LAN/NAT fix (Chinese)
+- [NAT_FIX_CODE_CHANGES.md](NAT_FIX_CODE_CHANGES.md) - Exact code changes for NAT fix
 - [P2P_FIX_OVERVIEW.md](P2P_FIX_OVERVIEW.md) - Visual flow diagrams and architecture
 
 ### 🎮 For Players
@@ -100,19 +103,56 @@
 - Common issues and solutions
 - Implementation status
 
+#### NAT_SAME_NETWORK_FIX.md
+**Purpose:** Same LAN/NAT connection fix  
+**Audience:** Developers, administrators  
+**Contents:**
+- Problem description (same NAT clients cannot connect)
+- Root cause analysis
+- Solution overview with logic flow
+- Required implementation changes
+- Helper function examples
+- Testing procedures
+- Troubleshooting guide
+
+#### 同局域网连接修复方案.md
+**Purpose:** Same LAN/NAT connection fix (Chinese)  
+**Audience:** Chinese-speaking developers  
+**Contents:**
+- 问题描述
+- 解决方案
+- 代码修改示例
+- 测试步骤
+- 注意事项
+
+#### NAT_FIX_CODE_CHANGES.md
+**Purpose:** Exact code changes for NAT fix  
+**Audience:** Developers implementing the fix  
+**Contents:**
+- Before/after code comparisons
+- Three function modifications in packetmanager.cpp
+- Optional helper function
+- Compilation and verification instructions
+
 ## File Map
 
 ```
 testcsnz/
 │
-├── Documentation (6 files)
-│   ├── README.md                    # Start here
-│   ├── DOCUMENTATION_INDEX.md       # This file
-│   ├── IMPLEMENTATION_SUMMARY.md    # Overview
-│   ├── SETUP_GUIDE.md              # Setup instructions
-│   ├── CONFIG_EXAMPLES.md          # Configuration help
-│   ├── P2P_CONNECTION_FIX.md       # Technical details
-│   └── P2P_FIX_OVERVIEW.md         # Visual guide
+├── Documentation (13 files)
+│   ├── README.md                       # Start here
+│   ├── DOCUMENTATION_INDEX.md          # This file
+│   ├── IMPLEMENTATION_SUMMARY.md       # Overview
+│   ├── PROJECT_COMPLETION.md           # Project status
+│   ├── SETUP_GUIDE.md                  # Setup instructions
+│   ├── CONFIG_EXAMPLES.md              # Configuration help
+│   ├── ServerConfig.template.md        # Config template
+│   ├── P2P_CONNECTION_FIX.md           # Localhost fix (technical)
+│   ├── P2P_FIX_OVERVIEW.md             # Localhost fix (visual)
+│   ├── NAT_SAME_NETWORK_FIX.md         # Same network fix (English)
+│   ├── 同局域网连接修复方案.md          # Same network fix (Chinese)
+│   ├── NAT_FIX_CODE_CHANGES.md         # NAT fix code examples
+│   └── P2P_FIXES_QUICK_REFERENCE.md    # Quick reference guide
 │
 └── myGameServer/
     ├── CSNZ_Server.exe             # Server binary
@@ -133,8 +173,14 @@ testcsnz/
 ### Path 2: "I want to fix the P2P connection bug"
 1. [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md) - Understand the status
 2. [P2P_FIX_OVERVIEW.md](P2P_FIX_OVERVIEW.md) - Visualize the problem/solution
-3. [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md) - Implement the changes
+3. [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md) - Implement the localhost fix
 4. [SETUP_GUIDE.md](SETUP_GUIDE.md) - Test the fix
+
+### Path 2b: "I want to fix same LAN connection issues"
+1. [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) - Understand the NAT problem
+2. [NAT_FIX_CODE_CHANGES.md](NAT_FIX_CODE_CHANGES.md) - See exact code changes
+3. Implement the changes in packetmanager.cpp
+4. Test with two clients on same LAN
 
 ### Path 3: "I just want to play"
 1. [README.md](README.md) - Basic info
@@ -148,19 +194,37 @@ testcsnz/
 ## Key Information Quick Reference
 
 ### The Problem
+**Problem 1: Localhost IP Issue**
 - P2P connections fail
 - Clients connect to 127.0.0.1 instead of host IP
 - UDP holepunch records localhost
 
+**Problem 2: Same LAN/NAT Issue** (NEW)
+- Two clients behind same NAT cannot connect
+- Both share same public IP
+- Router doesn't support NAT hairpining
+
 ### The Solution
+**For Problem 1:**
 - Add `PublicIP` to ServerConfig.json
 - Modify server code to use PublicIP
 - Replace localhost with actual IP
 
+**For Problem 2:**
+- Detect when clients share same public IP
+- Send host's private/local IP instead of public IP
+- Enable direct LAN connection
+
 ### Current Status
+**Problem 1:**
 - ✅ Configuration updated (PublicIP added)
 - ✅ Documentation complete
 - ⚠️ Binary needs update to support feature
+
+**Problem 2:**
+- ✅ Documentation complete
+- ✅ Code changes documented
+- ⚠️ Requires source code modification and recompilation
 
 ### Configuration
 ```json
@@ -184,15 +248,18 @@ testcsnz/
 
 | File                       | Lines | Size  | Complexity |
 |----------------------------|-------|-------|------------|
-| README.md                  | 112   | 3.6KB | Beginner   |
+| README.md                  | 130   | 4.4KB | Beginner   |
 | SETUP_GUIDE.md             | 258   | 6.2KB | Beginner   |
 | CONFIG_EXAMPLES.md         | 166   | 4.0KB | Beginner   |
 | P2P_FIX_OVERVIEW.md        | 205   | 6.9KB | Intermediate |
 | P2P_CONNECTION_FIX.md      | 185   | 5.7KB | Advanced   |
+| NAT_SAME_NETWORK_FIX.md    | 650   | 16.8KB| Advanced   |
+| 同局域网连接修复方案.md      | 220   | 6.7KB | Intermediate |
+| NAT_FIX_CODE_CHANGES.md    | 390   | 10.6KB| Advanced   |
 | IMPLEMENTATION_SUMMARY.md  | 223   | 7.0KB | Intermediate |
 | DOCUMENTATION_INDEX.md     | ---   | ---   | Reference  |
 
-**Total Documentation**: ~1,150 lines, ~33KB
+**Total Documentation**: ~2,400 lines, ~68KB
 
 ## FAQ
 
@@ -208,6 +275,12 @@ A: See [CONFIG_EXAMPLES.md](CONFIG_EXAMPLES.md).
 **Q: How do I implement the source code changes?**  
 A: See [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md).
 
+**Q: How do I fix same LAN connection issues?**  
+A: See [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) or [同局域网连接修复方案.md](同局域网连接修复方案.md) for Chinese.
+
+**Q: What are the exact code changes needed?**  
+A: See [NAT_FIX_CODE_CHANGES.md](NAT_FIX_CODE_CHANGES.md) for before/after code.
+
 **Q: Why isn't the fix working?**  
 A: The binary may not support the PublicIP feature yet. See [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md) for status.
 
@@ -217,8 +290,14 @@ A: TCP 30002, UDP 27005, UDP 27015. See any documentation file for details.
 ## Updates and Contributions
 
 - **Last Updated**: 2025-12-28
-- **Version**: 1.0
+- **Version**: 2.0 (Added NAT/Same Network Fix)
 - **Status**: Complete
+
+**Recent Changes:**
+- Added NAT/Same Network connection fix documentation
+- Added Chinese language documentation
+- Added exact code change examples
+- Updated all index and navigation documents
 
 ## Help and Support
 

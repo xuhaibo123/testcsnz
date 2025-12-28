@@ -106,7 +106,7 @@ The server must detect when the joining client and the host client share the sam
 
 ## Required Implementation Changes
 
-> **Note:** This repository contains only the compiled binary (`CSNZ_Server.exe`). The following changes must be implemented in the C++ source code.
+> **Note:** This document provides the implementation guide for fixing the NAT/same network issue. The changes must be applied to the C++ source code (available at [JusicP/CSNZ_Server](https://github.com/JusicP/CSNZ_Server)) and the server must be recompiled.
 
 ### 1. Modify `SendHostJoin` Function
 

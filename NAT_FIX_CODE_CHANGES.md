@@ -17,7 +17,7 @@ void CPacketManager::SendHostJoin(IExtendedSocket* socket, IUser* host)
 
 	msg->WriteUInt8(HostPacketType::HostJoin);
 	msg->WriteUInt32(host->GetID());
-	msg->WriteUInt64(0); // что это?
+	msg->WriteUInt64(0); // Unknown field
 
 	UserNetworkConfig_s network = host->GetNetworkConfig();
 
@@ -41,7 +41,7 @@ void CPacketManager::SendHostJoin(IExtendedSocket* socket, IUser* host)
 
 	msg->WriteUInt8(HostPacketType::HostJoin);
 	msg->WriteUInt32(host->GetID());
-	msg->WriteUInt64(0); // что это?
+	msg->WriteUInt64(0); // Unknown field
 
 	UserNetworkConfig_s network = host->GetNetworkConfig();
 

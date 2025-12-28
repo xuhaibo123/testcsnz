@@ -144,7 +144,7 @@ The current binary does not support the NAT/same network fix. Clients behind the
 ## Support
 
 For issues and questions:
-- **Same LAN connection issues**: Check [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) or [同局域网连接修复方案.md](同局域网连接修复方案.md)
+- **Same LAN connection issues**: Check [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) or [同局域网连接修复方案.md](%E5%90%8C%E5%B1%80%E5%9F%9F%E7%BD%91%E8%BF%9E%E6%8E%A5%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88.md)
 - **General P2P issues**: Check [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md)
 - **Source code**: Refer to [JusicP/CSNZ_Server](https://github.com/JusicP/CSNZ_Server) repository
 

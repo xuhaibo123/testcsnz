@@ -17,7 +17,7 @@
 **Want to implement the fix in source code?**
 - [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md) - Technical implementation details (localhost fix)
 - [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) - Same LAN/NAT fix (English)
-- [同局域网连接修复方案.md](同局域网连接修复方案.md) - Same LAN/NAT fix (Chinese)
+- [同局域网连接修复方案.md](%E5%90%8C%E5%B1%80%E5%9F%9F%E7%BD%91%E8%BF%9E%E6%8E%A5%E4%BF%AE%E5%A4%8D%E6%96%B9%E6%A1%88.md) - Same LAN/NAT fix (Chinese)
 - [NAT_FIX_CODE_CHANGES.md](NAT_FIX_CODE_CHANGES.md) - Exact code changes for NAT fix
 - [P2P_FIX_OVERVIEW.md](P2P_FIX_OVERVIEW.md) - Visual flow diagrams and architecture
 
@@ -139,17 +139,20 @@
 ```
 testcsnz/
 │
-├── Documentation (10 files)
-│   ├── README.md                    # Start here
-│   ├── DOCUMENTATION_INDEX.md       # This file
-│   ├── IMPLEMENTATION_SUMMARY.md    # Overview
-│   ├── SETUP_GUIDE.md              # Setup instructions
-│   ├── CONFIG_EXAMPLES.md          # Configuration help
-│   ├── P2P_CONNECTION_FIX.md       # Localhost fix (technical)
-│   ├── P2P_FIX_OVERVIEW.md         # Localhost fix (visual)
-│   ├── NAT_SAME_NETWORK_FIX.md     # Same network fix (English)
-│   ├── 同局域网连接修复方案.md       # Same network fix (Chinese)
-│   └── NAT_FIX_CODE_CHANGES.md     # NAT fix code examples
+├── Documentation (13 files)
+│   ├── README.md                       # Start here
+│   ├── DOCUMENTATION_INDEX.md          # This file
+│   ├── IMPLEMENTATION_SUMMARY.md       # Overview
+│   ├── PROJECT_COMPLETION.md           # Project status
+│   ├── SETUP_GUIDE.md                  # Setup instructions
+│   ├── CONFIG_EXAMPLES.md              # Configuration help
+│   ├── ServerConfig.template.md        # Config template
+│   ├── P2P_CONNECTION_FIX.md           # Localhost fix (technical)
+│   ├── P2P_FIX_OVERVIEW.md             # Localhost fix (visual)
+│   ├── NAT_SAME_NETWORK_FIX.md         # Same network fix (English)
+│   ├── 同局域网连接修复方案.md          # Same network fix (Chinese)
+│   ├── NAT_FIX_CODE_CHANGES.md         # NAT fix code examples
+│   └── P2P_FIXES_QUICK_REFERENCE.md    # Quick reference guide
 │
 └── myGameServer/
     ├── CSNZ_Server.exe             # Server binary

@@ -3,6 +3,7 @@
   "Description": "平行时空2024",
   "IP": "0.0.0.0",
   "Port": "30002",
+  "PublicIP": "119.91.238.117",
   "GameRoomIP": "119.91.238.117",
   "TCPSendBufferSize": 131072,
   "MaxPlayers": 100,

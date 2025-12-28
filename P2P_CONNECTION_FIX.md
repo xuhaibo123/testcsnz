@@ -56,7 +56,9 @@ public:
 ```
 
 #### serverconfig.cpp
-Load the PublicIP from the configuration file in the `Load()` function:
+Load the PublicIP from the configuration file in the `Load()` function.
+
+Add this line after loading the `description` field:
 
 ```cpp
 bool CServerConfig::Load()
@@ -70,7 +72,7 @@ bool CServerConfig::Load()
         
         hostName = cfg.value("HostName", "CSO Server");
         description = cfg.value("Description", "");
-        publicIP = cfg.value("PublicIP", "");  // Add this line
+        publicIP = cfg.value("PublicIP", "");  // Add this line after description
         tcpPort = udpPort = cfg.value("Port", DEFAULT_PORT);
         
         // ... rest of the code ...

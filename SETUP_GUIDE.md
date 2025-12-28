@@ -9,10 +9,11 @@
 
 ### Step 1: Get Your Public IP
 
-Find your public IP address:
-- Visit https://whatismyipaddress.com/
-- Or run: `curl ifconfig.me` (Linux/Mac)
+Find your public IP address using one of these methods:
+- Visit https://whatismyipaddress.com/ or https://ifconfig.me/ or https://icanhazip.com/
+- Or run: `curl ifconfig.me` or `curl icanhazip.com` (Linux/Mac)
 - Or run: `Invoke-WebRequest -Uri "https://ifconfig.me" | Select-Object -ExpandProperty Content` (PowerShell)
+- Or check your router's admin panel (often labeled "WAN IP" or "External IP")
 
 Example: `119.91.238.117`
 

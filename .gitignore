@@ -1,0 +1,34 @@
+# CSNZ Server .gitignore
+
+# Logs
+myGameServer/Logs/
+*.log
+
+# Database (contains user data - should be backed up separately)
+# Uncomment to prevent committing:
+# myGameServer/UserDatabase.db3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Server configuration with sensitive data
+# Uncomment this line to prevent accidentally committing your real server IP:
+# myGameServer/ServerConfig.json
+
+# Note: The current ServerConfig.json contains an example IP (119.91.238.117)
+# If you want to keep your real config private, uncomment the line above
+# and use ServerConfig.template.md as a reference for others

@@ -122,6 +122,8 @@ CUser::CUser(IExtendedSocket* sock, int userID, const std::string& userName)
 
 Modify the function to replace localhost (127.0.0.1) with the socket's IP:
 
+**Note on Validation**: For production use, consider adding IP format validation to ensure `publicIP` contains a valid IP address before using it. Invalid IP formats could cause connection failures.
+
 ```cpp
 int CUser::UpdateHolepunch(int portId, const string& localIpAddress, int localPort, int externalPort)
 {
@@ -134,6 +136,8 @@ int CUser::UpdateHolepunch(int portId, const string& localIpAddress, int localPo
         // If publicIP is configured, use that instead
         if (!g_pServerConfig->publicIP.empty())
         {
+            // Optional: Add IP format validation here
+            // if (isValidIP(g_pServerConfig->publicIP))
             ipAddress = g_pServerConfig->publicIP;
         }
     }
@@ -155,6 +159,8 @@ int CUser::UpdateHolepunch(int portId, const string& localIpAddress, int localPo
     };
 }
 ```
+
+**Recommended Enhancement**: Consider adding server startup validation to warn administrators if `publicIP` is set to "0.0.0.0" or is in an invalid format, as this would prevent proper P2P functionality.
 
 ## Testing Procedure
 

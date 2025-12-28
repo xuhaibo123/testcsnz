@@ -19,9 +19,11 @@ Example: `119.91.238.117`
 
 ### Step 2: Configure ServerConfig.json
 
+⚠️ **CRITICAL**: The default ServerConfig.json contains placeholder values that will NOT work. You MUST configure your actual public IP.
+
 1. Navigate to `myGameServer/` directory
 2. Open `ServerConfig.json` in a text editor
-3. Update these fields:
+3. Update these fields (REQUIRED):
 
 ```json
 {
@@ -39,6 +41,16 @@ Example:
 ```
 
 4. Save the file
+
+⚠️ **Verification**: Ensure you replaced the placeholder values:
+- `"PublicIP": "0.0.0.0"` ❌ WRONG - won't work
+- `"PublicIP": "203.0.113.45"` ✅ CORRECT - your actual IP
+
+**Common Mistakes to Avoid:**
+- Don't leave "0.0.0.0" as the PublicIP value
+- Don't use "localhost" or "127.0.0.1" for PublicIP (unless testing locally only)
+- Ensure PublicIP and GameRoomIP match
+- Use your router's external IP if behind NAT, not your local LAN IP
 
 ### Step 3: Configure Firewall
 

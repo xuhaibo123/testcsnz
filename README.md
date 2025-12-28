@@ -27,7 +27,12 @@ A fix for P2P connection failures has been documented. See [P2P_CONNECTION_FIX.m
 
 The main server configuration file located at `myGameServer/ServerConfig.json`.
 
-⚠️ **Security Note**: The included ServerConfig.json uses placeholder IP addresses (0.0.0.0). **You must replace these with your actual server's public IP** for P2P connections to work. See [ServerConfig.template.md](ServerConfig.template.md) for detailed configuration guidance.
+⚠️ **IMPORTANT**: The included ServerConfig.json uses placeholder IP addresses (0.0.0.0). **The server will NOT work properly until you replace these with your actual server's public IP address.** See [ServerConfig.template.md](ServerConfig.template.md) for detailed configuration guidance.
+
+⚠️ **Configuration Required**: Before starting the server, you MUST:
+1. Replace `"PublicIP": "0.0.0.0"` with your actual public IP
+2. Replace `"GameRoomIP": "0.0.0.0"` with your actual public IP (same as PublicIP)
+3. Both values should be identical for proper P2P functionality
 
 #### Important Settings for P2P Connections:
 

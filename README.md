@@ -13,6 +13,16 @@ For source code changes, please refer to:
 
 ## Recent Changes
 
+### NAT/Same Network Connection Fix (NEW)
+
+A fix for clients in the same LAN/NAT unable to join each other's rooms has been documented. See [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) or [同局域网连接修复方案.md](同局域网连接修复方案.md) for details.
+
+**Problem:** Two clients behind the same NAT (sharing the same public IP) cannot join each other's game rooms.
+
+**Solution:** Server detects when clients share the same public IP and sends the host's private/local IP instead of public IP.
+
+**Implementation:** Requires source code modification in `packetmanager.cpp`. See [NAT_FIX_CODE_CHANGES.md](NAT_FIX_CODE_CHANGES.md) for exact code changes.
+
 ### P2P Connection Fix
 
 A fix for P2P connection failures has been documented. See [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md) for details.
@@ -98,7 +108,18 @@ If clients cannot join P2P rooms:
 4. **Review server logs** in the `Logs/` directory
 5. **Test connectivity** from an external network (not localhost)
 
+### Same LAN/Network Issue
+
+If two clients on the **same LAN** (behind the same NAT router) cannot join each other:
+
+1. This is a **known issue** - see [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md)
+2. The fix requires **source code modification** (not just configuration)
+3. See [NAT_FIX_CODE_CHANGES.md](NAT_FIX_CODE_CHANGES.md) for implementation details
+4. Alternatively, use a binary that already includes this fix
+
 ## Known Limitations
+
+### PublicIP Configuration Support
 
 The current binary may not support the `PublicIP` configuration field. To enable this feature:
 
@@ -108,11 +129,24 @@ The current binary may not support the `PublicIP` configuration field. To enable
 
 Alternatively, use a server binary that already includes these fixes from the reference repository.
 
+### Same LAN/Network Connections
+
+The current binary does not support the NAT/same network fix. Clients behind the same NAT (same public IP) cannot join each other's rooms. To enable this:
+
+1. The source code must be modified as documented in [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md)
+2. See [NAT_FIX_CODE_CHANGES.md](NAT_FIX_CODE_CHANGES.md) for exact code changes
+3. Recompile and replace the binary
+
+**Workarounds** (without recompiling):
+- Host can enable NAT hairpining/loopback on their router (if supported)
+- Use a VPN to put clients on different "networks" from the router's perspective
+
 ## Support
 
 For issues and questions:
-- Check the [P2P Connection Fix documentation](P2P_CONNECTION_FIX.md)
-- Refer to the [JusicP/CSNZ_Server](https://github.com/JusicP/CSNZ_Server) repository for source code
+- **Same LAN connection issues**: Check [NAT_SAME_NETWORK_FIX.md](NAT_SAME_NETWORK_FIX.md) or [同局域网连接修复方案.md](同局域网连接修复方案.md)
+- **General P2P issues**: Check [P2P_CONNECTION_FIX.md](P2P_CONNECTION_FIX.md)
+- **Source code**: Refer to [JusicP/CSNZ_Server](https://github.com/JusicP/CSNZ_Server) repository
 
 ## License
 

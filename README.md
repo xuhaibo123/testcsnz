@@ -27,7 +27,7 @@ A fix for P2P connection failures has been documented. See [P2P_CONNECTION_FIX.m
 
 The main server configuration file located at `myGameServer/ServerConfig.json`.
 
-⚠️ **Security Note**: The included ServerConfig.json contains an example IP address (119.91.238.117). For production use, replace this with your actual server's public IP. See [ServerConfig.template.md](ServerConfig.template.md) for a template and consider adding `myGameServer/ServerConfig.json` to your `.gitignore` to prevent committing sensitive information.
+⚠️ **Security Note**: The included ServerConfig.json uses placeholder IP addresses (0.0.0.0). **You must replace these with your actual server's public IP** for P2P connections to work. See [ServerConfig.template.md](ServerConfig.template.md) for detailed configuration guidance.
 
 #### Important Settings for P2P Connections:
 
@@ -35,8 +35,8 @@ The main server configuration file located at `myGameServer/ServerConfig.json`.
 {
   "IP": "0.0.0.0",
   "Port": "30002",
-  "PublicIP": "119.91.238.117",
-  "GameRoomIP": "119.91.238.117"
+  "PublicIP": "YOUR_PUBLIC_IP_HERE",
+  "GameRoomIP": "YOUR_PUBLIC_IP_HERE"
 }
 ```
 

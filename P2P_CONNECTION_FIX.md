@@ -20,19 +20,20 @@ A new `PublicIP` field has been added to the configuration:
 
 ```json
 {
-  "HostName": "Giacomo CSNZ",
-  "Description": "平行时空2024",
+  "HostName": "CSO Server",
+  "Description": "",
   "IP": "0.0.0.0",
   "Port": "30002",
-  "PublicIP": "119.91.238.117",
-  "GameRoomIP": "119.91.238.117",
+  "PublicIP": "YOUR_PUBLIC_IP",
+  "GameRoomIP": "YOUR_PUBLIC_IP",
   ...
 }
 ```
 
 **Field Description:**
 - `PublicIP`: The public IP address of the server that clients should connect to. This is used to replace localhost (127.0.0.1) addresses in the UDP holepunch mechanism.
-- If not specified or empty, the server will use the socket's IP address as before.
+- If not specified or set to "0.0.0.0", the server will use the socket's IP address as before.
+- **Replace "YOUR_PUBLIC_IP" with your actual server's public IP address**
 
 ## Required Source Code Changes
 
@@ -158,8 +159,9 @@ int CUser::UpdateHolepunch(int portId, const string& localIpAddress, int localPo
 ## Testing Procedure
 
 1. **Configure the server:**
-   - Set `PublicIP` to your server's public IP address in ServerConfig.json
+   - Set `PublicIP` to your server's actual public IP address in ServerConfig.json
    - Ensure `GameRoomIP` matches the `PublicIP` value
+   - Do not use placeholder values like "0.0.0.0" or "YOUR_PUBLIC_IP" in production
 
 2. **Test P2P connections:**
    - Host a room from Client A

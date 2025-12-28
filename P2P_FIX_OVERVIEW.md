@@ -43,12 +43,11 @@ Creates room
 
 ## Code Changes Summary
 
-### 1. Configuration (ServerConfig.json)
-
+### Configuration
 ```json
 {
-  "PublicIP": "119.91.238.117",  // <-- New field
-  "GameRoomIP": "119.91.238.117"
+  "PublicIP": "YOUR_PUBLIC_IP",  // <-- New field (replace with actual IP)
+  "GameRoomIP": "YOUR_PUBLIC_IP" // <-- Should match PublicIP
 }
 ```
 

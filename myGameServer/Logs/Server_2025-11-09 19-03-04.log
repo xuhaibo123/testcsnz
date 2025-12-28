@@ -1,0 +1,5 @@
+[11/09/25 19:03:04] [INFO]  [Shop] Loaded 92 products.
+[11/09/25 19:03:04] [FATAL] bind failed with error: 10048
+Only one usage of each socket address (protocol/network address/port) is normally permitted.
+
+[11/09/25 19:03:07] [ERROR] Server initialization failed.

@@ -1,0 +1,1555 @@
+{
+	"Version": 1,
+	"1001": {
+		"LvlRestriction": 1,
+		"Items": {
+			"1": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"1002": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1030": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"136": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"173": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"258": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"32": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"363": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"367": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"45": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"5": {
+				"Count": 1,
+				"Duration": 3
+			}
+		}
+	},
+	"1002": {
+		"LvlRestriction": 3,
+		"Items": {
+			"1003": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1030": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"138": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"148": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"173": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"24": {
+				"Count": 1,
+				"Duration": 3
+			},
+			"258": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"419": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1003": {
+		"LvlRestriction": 5,
+		"Items": {
+			"1004": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1030": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"136": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"158": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"173": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"18": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"22": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"259": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"37": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"385": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"4": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"418": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1004": {
+		"LvlRestriction": 10,
+		"Items": {
+			"1005": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1030": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"15": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"173": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"175": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"176": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"21": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"260": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"285": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"286": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"300": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"38": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"47": {
+				"Count": 1,
+				"Duration": 7
+			},
+			"55": {
+				"Count": 1,
+				"Duration": 7
+			}
+		}
+	},
+	"1005": {
+		"LvlRestriction": 15,
+		"Items": {
+			"1006": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1030": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"159": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"163": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"164": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"173": {
+				"Count": 15,
+				"Duration": 0
+			},
+			"187": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"260": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"261": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"300": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"46": {
+				"Count": 1,
+				"Duration": 10
+			}
+		}
+	},
+	"1006": {
+		"LvlRestriction": 20,
+		"Items": {
+			"1007": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1031": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"149": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"173": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"197": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"259": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"397": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"417": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"48": {
+				"Count": 1,
+				"Duration": 10
+			}
+		}
+	},
+	"1007": {
+		"LvlRestriction": 25,
+		"Items": {
+			"1008": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1031": {
+				"Count": 2,
+				"Duration": 0
+			},
+			"173": {
+				"Count": 25,
+				"Duration": 0
+			},
+			"242": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"248": {
+				"Count": 1,
+				"Duration": 10
+			},
+			"259": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"285": {
+				"Count": 1,
+				"Duration": 15
+			},
+			"286": {
+				"Count": 1,
+				"Duration": 15
+			},
+			"287": {
+				"Count": 1,
+				"Duration": 15
+			},
+			"288": {
+				"Count": 1,
+				"Duration": 15
+			},
+			"320": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1008": {
+		"LvlRestriction": 30,
+		"Items": {
+			"1016": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1031": {
+				"Count": 2,
+				"Duration": 0
+			},
+			"173": {
+				"Count": 30,
+				"Duration": 0
+			},
+			"259": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"282": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"300": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"304": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"321": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1016": {
+		"LvlRestriction": 35,
+		"Items": {
+			"1017": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1031": {
+				"Count": 2,
+				"Duration": 0
+			},
+			"163": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"164": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"173": {
+				"Count": 35,
+				"Duration": 0
+			},
+			"175": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"176": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"259": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"373": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"56": {
+				"Count": 1,
+				"Duration": -1
+			}
+		}
+	},
+	"1017": {
+		"LvlRestriction": 40,
+		"Items": {
+			"1018": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1031": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"173": {
+				"Count": 40,
+				"Duration": 0
+			},
+			"259": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"390": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"393": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"395": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1018": {
+		"LvlRestriction": 45,
+		"Items": {
+			"1019": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1031": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"173": {
+				"Count": 45,
+				"Duration": 0
+			},
+			"259": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"391": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"392": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"394": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"420": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"54": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1019": {
+		"LvlRestriction": 50,
+		"Items": {
+			"1020": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1031": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"173": {
+				"Count": 50,
+				"Duration": 0
+			},
+			"246": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"254": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"279": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"280": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"281": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"285": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"286": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"287": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"288": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"354": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1020": {
+		"LvlRestriction": 55,
+		"Items": {
+			"1021": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1032": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"173": {
+				"Count": 55,
+				"Duration": 0
+			},
+			"253": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"259": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"362": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"421": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"446": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"447": {
+				"Count": 1,
+				"Duration": 30
+			}
+		}
+	},
+	"1021": {
+		"LvlRestriction": 60,
+		"Items": {
+			"1022": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1032": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"111": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"136": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"138": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"173": {
+				"Count": 60,
+				"Duration": 0
+			},
+			"259": {
+				"Count": 30,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"343": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"355": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"431": {
+				"Count": 1,
+				"Duration": -1
+			}
+		}
+	},
+	"1022": {
+		"LvlRestriction": 65,
+		"Items": {
+			"1023": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1032": {
+				"Count": 3,
+				"Duration": 0
+			},
+			"173": {
+				"Count": 65,
+				"Duration": 0
+			},
+			"259": {
+				"Count": 30,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"382": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"55": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"8": {
+				"Count": 1,
+				"Duration": -1
+			}
+		}
+	},
+	"1023": {
+		"LvlRestriction": 70,
+		"Items": {
+			"1024": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"1032": {
+				"Count": 5,
+				"Duration": 0
+			},
+			"160": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"173": {
+				"Count": 70,
+				"Duration": 0
+			},
+			"212": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"237": {
+				"Count": 1,
+				"Duration": 30
+			},
+			"259": {
+				"Count": 50,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 50,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 50,
+				"Duration": 0
+			},
+			"371": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"434": {
+				"Count": 1,
+				"Duration": -1
+			}
+		}
+	},
+	"1024": {
+		"LvlRestriction": 72,
+		"Items": {
+			"1032": {
+				"Count": 10,
+				"Duration": 0
+			},
+			"136": {
+				"Count": 1,
+				"Duration": 100
+			},
+			"137": {
+				"Count": 1,
+				"Duration": 100
+			},
+			"138": {
+				"Count": 1,
+				"Duration": 100
+			},
+			"173": {
+				"Count": 72,
+				"Duration": 0
+			},
+			"245": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"249": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"252": {
+				"Count": 1,
+				"Duration": 100
+			},
+			"259": {
+				"Count": 100,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 100,
+				"Duration": 0
+			},
+			"270": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"300": {
+				"Count": 100,
+				"Duration": 0
+			},
+			"320": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"321": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"383": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"397": {
+				"Count": 1,
+				"Duration": -1
+			},
+			"452": {
+				"Count": 1,
+				"Duration": -1
+			}
+		}
+	},
+	"1027": {
+		"Exp": [
+			5000,
+			10000,
+			20000
+		]
+	},
+	"1028": {
+		"Exp": [
+			10000,
+			20000,
+			40000
+		]
+	},
+	"1029": {
+		"Exp": [
+			20000,
+			40000,
+			80000
+		]
+	},
+	"1030": {
+		"Points": [
+			2500,
+			5000,
+			10000
+		]
+	},
+	"1031": {
+		"Points": [
+			5000,
+			10000,
+			20000
+		]
+	},
+	"1032": {
+		"Points": [
+			10000,
+			20000,
+			40000
+		]
+	},
+	"2189": {
+		"Items": {
+			"8084": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8085": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8167": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"943": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"944": {
+				"Count": 1,
+				"Duration": 0
+			}
+		}
+	},
+	"2214": {
+		"Select": true,
+		"Items": {
+			"270": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"363": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"495": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"504": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"554": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"556": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"703": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"719": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"752": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"768": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"769": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"776": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"792": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8118": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8119": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"816": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8193": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"849": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"893": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"899": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"924": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"928": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"964": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"969": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"981": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"983": {
+				"Count": 1,
+				"Duration": 0
+			}
+		}
+	},
+	"2221": {
+		"Items": {
+			"744": {
+				"Count": 999,
+				"Duration": 0
+			},
+			"745": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"746": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"747": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"807": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"822": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"823": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"862": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"874": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"896": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"897": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"898": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"914": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"915": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"950": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"951": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"952": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8001": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8002": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8003": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8004": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8005": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8006": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8169": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8227": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8296": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8297": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8298": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8299": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8300": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8301": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8378": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8379": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8410": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8411": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8422": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8423": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8424": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8448": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8449": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8450": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8451": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8452": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8454": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8455": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8496": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8519": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8520": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8542": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8543": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8585": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8586": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8618": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8636": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8686": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8710": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8754": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8801": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8839": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8888": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8923": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8924": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8937": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8943": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8946": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8947": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8969": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"8981": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9017": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9049": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9050": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9064": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9065": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9066": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9067": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9068": {
+				"Count": 20,
+				"Duration": 0
+			},
+			"9069": {
+				"Count": 20,
+				"Duration": 0
+			}
+		}
+	},
+	"2199": {
+		"Items": {
+			"8171": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8248": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8314": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8381": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8425": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8474": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8487": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8530": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8621": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8663": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8699": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8709": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8787": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8825": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8876": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8901": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"8965": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"9007": {
+				"Count": 1,
+				"Duration": 0
+			},
+			"9051": {
+				"Count": 1,
+				"Duration": 0
+			}
+		}
+	},
+	"3954": {
+		"Items": {
+			"3619": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3620": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3621": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3622": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3623": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3624": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3625": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3626": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3627": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3628": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3629": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3630": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3631": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3632": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3633": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3634": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3635": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3636": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3637": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3638": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3639": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3640": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3641": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3642": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3643": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3644": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3645": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"3646": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"334": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"234": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"260": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"300": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"258": {
+				"Count": 9999,
+				"Duration": 0
+			},
+			"259": {
+				"Count": 9999,
+				"Duration": 0
+			}
+		}
+	}
+}

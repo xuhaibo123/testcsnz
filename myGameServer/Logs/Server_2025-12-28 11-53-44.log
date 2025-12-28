@@ -1,0 +1,176 @@
+[12/28/25 11:53:44] [INFO]  [Shop] Loaded 92 products.
+[12/28/25 11:53:44] [INFO]  Server starts listening. Server developers: Jusic, Hardee, NekoMeow. Thx to Ochii for CSO2 server.
+For more information visit discord.gg/EvUAY6D
+[12/28/25 11:53:44] [INFO]  Server build: 2029, Public Release
+[12/28/25 11:53:44] [INFO]  Memory usage: 15.33mb. Connected users: 0. Logged in users: 0.
+[12/28/25 11:53:49] [INFO]  Client (0, 192.168.10.103) has been connected to the server
+[12/28/25 11:53:55] [WARN]  CUserManager::OnVersionPacket: the server may not support the client build: 29.11.24 (supported build: 05.11.24)
+[12/28/25 11:54:00] [INFO]  Memory usage: 15.86mb. Connected users: 1. Logged in users: 0.
+[12/28/25 11:54:03] [WARN]  CUserManager::OnVersionPacket: the server may not support the client build: 29.11.24 (supported build: 05.11.24)
+[12/28/25 11:54:03] [INFO]  Client (192.168.10.103) sent login packet
+[12/28/25 11:54:03] [INFO]  User logged in (IP: 192.168.10.103, UID: 2, Username: bbbbbb)
+[12/28/25 11:54:03] [INFO]  User '2, bbbbbb' joined channel 'Channel server 1-1'
+[12/28/25 11:54:03] [INFO]  User '2, bbbbbb' requested room list successfully, sending...
+[12/28/25 11:54:04] [INFO]  OnUDPMessage(0) - userID: 2, portID: 0, localAddr: -1062729113 (192.168.10.103), localPort: 27015, tries: 0
+[12/28/25 11:54:04] [INFO]  OnUDPMessage(0) - userID: 2, portID: 1, localAddr: -1062729113 (192.168.10.103), localPort: 27005, tries: 1
+[12/28/25 11:54:04] [WARN]  Unimplemented packet: 194
+[12/28/25 11:54:04] [INFO]  CItemManager::OnDailyRewardsRequest: received type 0
+[12/28/25 11:54:04] [WARN]  Unimplemented packet: 167
+[12/28/25 11:54:04] [WARN]  Unimplemented packet: 177
+[12/28/25 11:54:04] [WARN]  Unimplemented packet: 123
+[12/28/25 11:54:04] [WARN]  Unimplemented packet: 192
+[12/28/25 11:54:33] [INFO]  User '2, bbbbbb' created a new room (RID: 1, name: 'ËÆ§ÂáÜBÁ´ôUPÂçàÂ§úÂó®ÂÆ¢ÿ‹´tv[SkÃ›å›∏≈S∏≈S@‰œîl›wÙ‹»ú√^ÙÂœî')
+[12/28/25 11:54:33] [INFO]  Host '2, bbbbbb' updated room settings (RID: 1)
+[12/28/25 11:54:33] [INFO]  Host '2, bbbbbb' updated room settings (RID: 1)
+[12/28/25 11:54:33] [INFO]  Host '2, bbbbbb' updated room settings (RID: 1)
+[12/28/25 11:54:33] [INFO]  Host '2, bbbbbb' updated room settings (RID: 1)
+[12/28/25 11:54:33] [INFO]  Host '2, bbbbbb' updated room settings (RID: 1)
+[12/28/25 11:54:33] [INFO]  Host '2, bbbbbb' updated room settings (RID: 1)
+[12/28/25 11:54:33] [INFO]  Host '2, bbbbbb' updated room settings (RID: 1)
+[12/28/25 11:54:36] [INFO]  Host 'bbbbbb' started room match (RID: 1, IP: 192.168.10.103, port: 27005)
+[12/28/25 11:54:46] [INFO]  Packet_Host game event: eventID: 174, userID: 2, len: 17
+[12/28/25 11:54:46] [INFO]  Packet_Host game event: eventID: 174, userID: 2, len: 17
+[12/28/25 11:54:46] [WARN]  Packet_Host type 103 is not implemented, len: 7
+[12/28/25 11:54:46] [WARN]  [User '2, bbbbbb'] Packet_Kick type 0
+[12/28/25 11:55:00] [INFO]  Memory usage: 17.06mb. Connected users: 1. Logged in users: 1.
+[12/28/25 11:55:12] [WARN]  Packet_Host type 24 is not implemented, len: 2
+[12/28/25 11:55:12] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:55:12] [WARN]  Packet_Host type 25 is not implemented, len: 2
+[12/28/25 11:55:50] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:55:50] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:55:54] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:55:54] [INFO]  Packet_Host game event: eventID: 182, userID: 2, len: 117
+[12/28/25 11:55:59] [WARN]  Packet_Host type 24 is not implemented, len: 2
+[12/28/25 11:55:59] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:55:59] [WARN]  Packet_Host type 25 is not implemented, len: 2
+[12/28/25 11:56:00] [INFO]  Memory usage: 16.93mb. Connected users: 1. Logged in users: 1.
+[12/28/25 11:56:37] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:56:37] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:56:56] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:56:57] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:56:57] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:00] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:00] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:00] [INFO]  Packet_Host game event: eventID: 173, userID: 2, len: 15
+[12/28/25 11:57:00] [INFO]  Memory usage: 16.98mb. Connected users: 1. Logged in users: 1.
+[12/28/25 11:57:04] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:04] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:05] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:05] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:05] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:05] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:05] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:05] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:05] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:07] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:07] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:10] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:10] [INFO]  Packet_Host game event: eventID: 173, userID: 2, len: 15
+[12/28/25 11:57:16] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:16] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:17] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:18] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:18] [INFO]  Packet_Host game event: eventID: 173, userID: 2, len: 15
+[12/28/25 11:57:29] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:29] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:29] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:29] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:29] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:29] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:30] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:33] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:33] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:34] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:34] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:34] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:34] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:35] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:35] [INFO]  Packet_Host game event: eventID: 173, userID: 2, len: 15
+[12/28/25 11:57:37] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:37] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:38] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:38] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:42] [INFO]  Packet_Host game event: eventID: 174, userID: 2, len: 17
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [WARN]  Packet_Host type 22 is not implemented, len: 66
+[12/28/25 11:57:42] [WARN]  Packet_Host type 23 is not implemented, len: 10
+[12/28/25 11:57:42] [INFO]  Packet_Host game event: eventID: 175, userID: 2, len: 13
+[12/28/25 11:57:42] [INFO]  Packet_Host game event: eventID: 175, userID: 2, len: 13
+[12/28/25 11:57:42] [INFO]  Packet_Host game event: eventID: 182, userID: 2, len: 467
+[12/28/25 11:57:47] [WARN]  Packet_Host type 24 is not implemented, len: 2
+[12/28/25 11:57:47] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:57:47] [WARN]  Packet_Host type 25 is not implemented, len: 2
+[12/28/25 11:57:48] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:57:48] [INFO]  Packet_Host game event: eventID: 173, userID: 2, len: 15
+[12/28/25 11:58:00] [INFO]  Memory usage: 16.98mb. Connected users: 1. Logged in users: 1.
+[12/28/25 11:58:08] [INFO]  Packet_Host game event: eventID: 174, userID: 2, len: 17
+[12/28/25 11:58:12] [INFO]  Packet_Host game event: eventID: 91, userID: 2, len: 7
+[12/28/25 11:58:12] [INFO]  Packet_Host game event: eventID: 170, userID: 2, len: 15
+[12/28/25 11:58:12] [INFO]  Packet_Host game event: eventID: 171, userID: 2, len: 15
+[12/28/25 11:58:12] [INFO]  Packet_Host game event: eventID: 10, userID: 2, len: 8
+[12/28/25 11:58:13] [INFO]  Packet_Host game event: eventID: 197, userID: 2, len: 8
+[12/28/25 11:58:13] [INFO]  Packet_Host game event: eventID: 197, userID: 2, len: 8
+[12/28/25 11:58:13] [INFO]  Packet_Host game event: eventID: 197, userID: 2, len: 8
+[12/28/25 11:58:20] [INFO]  Packet_Host game event: eventID: 19, userID: 2, len: 7
+[12/28/25 11:58:20] [INFO]  Packet_Host game event: eventID: 186, userID: 2, len: 10
+[12/28/25 11:58:21] [INFO]  Packet_Host game event: eventID: 164, userID: 2, len: 8
+[12/28/25 11:58:22] [INFO]  Packet_Host game event: eventID: 197, userID: 2, len: 8
+[12/28/25 11:58:22] [INFO]  Packet_Host game event: eventID: 197, userID: 2, len: 8
+[12/28/25 11:58:32] [INFO]  User '2, bbbbbb' left a room (RID: 1)
+[12/28/25 11:59:00] [INFO]  Memory usage: 17.02mb. Connected users: 1. Logged in users: 1.
+[12/28/25 11:59:29] [WARN]  Unimplemented packet: 178
+[12/28/25 11:59:44] [INFO]  User logged out (2, 'bbbbbb', 0xD9A020E0)
+[12/28/25 11:59:44] [INFO]  Client (0, 192.168.10.103) has been disconnected from the server

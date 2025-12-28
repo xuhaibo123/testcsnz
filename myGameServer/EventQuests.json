@@ -1,0 +1,494 @@
+{
+	"Version": 1,
+	"1": {
+		"Active": true,
+		"Tasks": {
+			"1": {
+				"Goal": 50,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "恒宇银星升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1111,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 308,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 308,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 308,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"2": {
+				"Goal": 100,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "恒宇黑星升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1112,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 320,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 320,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 320,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"3": {
+				"Goal": 200,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "恒宇红星升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1113,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 321,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 321,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 321,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"4": {
+				"Goal": 500,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "恒宇双星升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1114,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 242,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 242,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 242,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"5": {
+				"Goal": 1000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "星红双子升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1115,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 245,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 245,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 245,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			}
+		}
+	},
+	"2": {
+		"Active": true,
+		"Tasks": {
+			"1": {
+				"Goal": 500,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "单发战术飞刀升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1116,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 579,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 579,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 579,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"2": {
+				"Goal": 1000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "双发战术飞刀升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1117,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 580,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 580,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 580,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			}
+		}
+	},
+	"3": {
+		"Active": true,
+		"Tasks": {
+			"1": {
+				"Goal": 20000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "赤焰魔龙升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1118,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 959,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 959,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 959,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"2": {
+				"Goal": 35000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "炽麟煌焱升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1119,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 8314,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 8314,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 8314,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"3": {
+				"Goal": 5000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "曙光辉翼升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1120,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 8474,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 8474,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 8474,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"4": {
+				"Goal": 15000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "断域雷魂升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1121,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 8171,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 8171,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 8171,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"5": {
+				"Goal": 20000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "黑曜审判升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1122,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 8381,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 8381,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 8381,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"6": {
+				"Goal": 5000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "星际仲裁升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1123,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 8248,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 8248,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 8248,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			},
+			"7": {
+				"Goal": 30000,
+				"Notice": {
+					"Goal": 10,
+					"UserMsg": "神鬼开天升级活动完成进度:%d/%d"
+				},
+				"RewardID": 1124,
+				"Conditions": {
+					"1": {
+						"EventType": 2,
+						"GunID": 8530,
+						"PlayerCount": 1,
+						"CheckForGun": true,
+						"GoalPoints": 1,
+						"Bot": 1
+					},
+					"2": {
+						"EventType": 2,
+						"GunID": 8530,
+						"CheckForGun": true,
+						"GoalPoints": 5,
+						"Bot": 0
+					},
+					"3": {
+						"GameModes": [8, 9, 14, 29],
+						"EventType": 2,
+						"VictimTeam": 1,
+						"GunID": 8530,
+						"CheckForGun": true,
+						"GoalPoints": 15,
+						"Bot": 0
+					}
+				}
+			}
+		}
+	}
+}

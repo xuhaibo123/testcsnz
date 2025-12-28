@@ -1,0 +1,23 @@
+[11/09/25 00:45:04] [INFO]  [Shop] Loaded 92 products.
+[11/09/25 00:45:04] [INFO]  Server starts listening. Server developers: Jusic, Hardee, NekoMeow. Thx to Ochii for CSO2 server.
+For more information visit discord.gg/EvUAY6D
+[11/09/25 00:45:04] [INFO]  Server build: 2029, Public Release
+[11/09/25 00:45:04] [INFO]  Memory usage: 15.37mb. Connected users: 0. Logged in users: 0.
+[11/09/25 00:45:22] [INFO]  Client (0, 127.0.0.1) has been connected to the server
+[11/09/25 00:45:28] [WARN]  CUserManager::OnVersionPacket: the server may not support the client build: 29.11.24 (supported build: 05.11.24)
+[11/09/25 00:45:34] [WARN]  CUserManager::OnVersionPacket: the server may not support the client build: 29.11.24 (supported build: 05.11.24)
+[11/09/25 00:45:34] [INFO]  Client (127.0.0.1) sent login packet
+[11/09/25 00:45:34] [INFO]  User logged in (IP: 127.0.0.1, UID: 2, Username: bbbbbb)
+[11/09/25 00:45:34] [INFO]  User '2, bbbbbb' joined channel 'Channel server 1-1'
+[11/09/25 00:45:34] [INFO]  User '2, bbbbbb' requested room list successfully, sending...
+[11/09/25 00:45:35] [INFO]  OnUDPMessage(0) - userID: 2, portID: 0, localAddr: -1062683135 (192.168.190.1), localPort: 27015, tries: 0
+[11/09/25 00:45:35] [INFO]  OnUDPMessage(0) - userID: 2, portID: 1, localAddr: -1062683135 (192.168.190.1), localPort: 27005, tries: 1
+[11/09/25 00:45:35] [WARN]  Unimplemented packet: 194
+[11/09/25 00:45:35] [INFO]  CItemManager::OnDailyRewardsRequest: received type 0
+[11/09/25 00:45:35] [WARN]  Unimplemented packet: 167
+[11/09/25 00:45:35] [WARN]  Unimplemented packet: 177
+[11/09/25 00:45:35] [WARN]  Unimplemented packet: 123
+[11/09/25 00:45:35] [WARN]  Unimplemented packet: 192
+[11/09/25 00:46:00] [INFO]  Memory usage: 16.22mb. Connected users: 1. Logged in users: 1.
+[11/09/25 00:46:14] [INFO]  User logged out (2, 'bbbbbb', 0xAD0ED680)
+[11/09/25 00:46:14] [INFO]  Client (0, 127.0.0.1) has been disconnected from the server
